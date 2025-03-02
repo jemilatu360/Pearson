@@ -1,0 +1,23 @@
+body{
+    background-image:url(pic1.webp) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#contact{
+    text-align: center;
+    padding-top: 75px;
+}
+footer a{
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    border-bottom: 2px solid;
+    background-color:white;
+    padding: 10px;
+    border-radius: 20px;
+}
+.container img{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}

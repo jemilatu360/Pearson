@@ -1,0 +1,222 @@
+/* style.css */
+
+* {
+    scroll-behavior: smooth;
+
+}
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #f1eeee;
+    line-height: 1.6;
+}
+img{
+    width: 30%;
+    
+    
+}
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.experience-item{
+    color: #007bff;
+}
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo img {
+    height: 50px;
+    width: 100%;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+nav :hover{
+    font-size: larger;
+    color: brown;
+}
+
+main {
+    overflow: hidden;
+}
+
+.section {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.section h2 {
+    margin-bottom: 20px;
+    color: #007bff;
+    font-weight: 700;
+}
+.about-grid{
+    display: flex;
+}
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/hero_central_region.jpg') center/cover no-repeat;
+    background-image: url(img1.jpg);
+    text-align: center;
+    padding: 150px 0;
+    animation: slide-in 2s ease-in-out forwards;
+}
+
+#about{
+    background-color: wheat;
+    
+}
+.section h2,h3,p
+{
+    color: #333;
+}
+.slide-in {
+    width: 60%;
+    animation: slide-in 2s ease-in-out forwards;
+    display: flex;
+    flex-wrap: wrap;
+}
+@keyframes slide-in{
+    from {
+        /* transform: translateX(-100%); */
+        opacity: 0;
+        scale: 0;
+    }
+    to {
+        /* transform: translateX(0); */
+        opacity: 1;
+        scale: 1;
+    }
+}
+.gallery-grid  {
+    overflow: hidden;
+    width: 100px;
+    height: 50vh;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    
+} 
+.container img{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.nav-button{
+    background-color: transparent;
+    border: none;
+     height: 50px;
+     width: 160px;
+     position: relative;
+     color: green;
+     /* border: green 2px; */
+     /* border-radius: 50px; */
+
+
+}
+.nav-button :hover{
+    background-color: #ef44ef;
+    /* color: white; */
+    transform: rotatey(360deg);
+    transition: 2s;
+    border: solid #EF4437 2px;
+
+}
+nav a:hover{
+    text-decoration: underline brown solid;
+}
+
+.hero-content h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+.hero-content p{
+  color: #f1eeee;
+}
+.btn{
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    border-bottom: 2px solid;
+    background-color:transparent;
+    padding: 10px;
+    border-radius: 20px;
+}
+.btn:hover{
+    background-color: aqua;
+}
+
+footer{
+    background-color: rgb(114, 116, 112);
+    height: 100px;
+    text-align: center;
+    padding-top: 15px;
+    
+}
+footer p{
+    color: #121314;
+}
+footer a{
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    border-bottom: 2px solid;
+    background-color:white;
+    padding: 10px;
+    border-radius: 20px;
+}
+    footer a:hover{
+        background-color: brown;
+    }
+.containers{
+    text-align: center;
+    color: blue;
+
+}
+#destinations.section{
+    background-color: wheat;
+}
+.destinations-grid{
+    display: flex;
+    
+}
+.destinations-grid.slide-in{
+    width: 20%;
+}
+#experiences.section{
+    background-color: wheat;
+}
+.how{
+    background-color: wheat;
+}
+#contact{
+    background-color: #a2bcd8;
+}
